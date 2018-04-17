@@ -1,0 +1,21 @@
+// Variables
+$font-size-base: 1.125rem;
+$font-family-sans-serif: 'Roboto', sans-serif;
+$headings-font-family: 'Playfair Display', serif;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// STRUCTURE
+// 01 - Home / O nama
+// 02 - Stručni tim
+// 03 - Pravne usluge
+// 01 - Blog
+
+
+// Use breakpoints inside classes
+.demo {
+    font-size: 12px;
+    @include media-breakpoint-up(md) {
+        font-size: 30px;
+    }
+}

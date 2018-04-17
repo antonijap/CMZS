@@ -1,0 +1,11 @@
+email: antonijapek@gmail.com
+fullname: 'Antonija Pek'
+title: Admin
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$Q.ZeUT0fs5BqmdOTHk5ZD.uiLBcJNHAdTRyEsfLhPyoQ.djDa67eC
