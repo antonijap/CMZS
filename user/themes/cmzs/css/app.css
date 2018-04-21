@@ -7057,6 +7057,12 @@ footer .margin-bottom {
   object-fit: cover;
   max-height: 300px; }
 
-.services li {
+.services p {
+  margin-bottom: 5em; }
+
+.services ul {
+  margin-bottom: 3em; }
+
+.services ul li {
   list-style-type: circle;
   line-height: 40px; }

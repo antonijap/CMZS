@@ -205,7 +205,6 @@ footer {
     }
 }
 
-
 .person {
     .img-fluid {
         object-fit: cover;
@@ -214,8 +213,15 @@ footer {
 }
 
 .services {
-    li {
-        list-style-type: circle;
-        line-height: 40px;
+    p {
+        margin-bottom: 5em;
+    }
+
+    ul {
+        margin-bottom: 3em;
+        li {
+            list-style-type: circle;
+            line-height: 40px;
+        }
     }
 }

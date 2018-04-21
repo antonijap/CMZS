@@ -1,5 +1,6 @@
 ---
 title: 'Pravne Usluge'
+body_classes: services
 ---
 
 Odvjetničko društvo ČERIN, MAR I PARTNERI d.o.o., Zagreb, osnovano je 2012. godine i to spajanjem zasebnih odvjetničkih ureda odvjetnika kojih su danas stariji (senior) partneri – odvjetnice Ksenije Čerin i odvjetnika Dubravka Mara. 
@@ -25,8 +26,6 @@ Odvjetničko društvo ČERIN, MAR I PARTNERI d.o.o., Zagreb, osnovano je 2012. g
 - savjetovanje i provođenje restrukturiranja i kolektivna otkazivanja viška radnika (savjetovanje i sudjelovanje u izradi programa zbrinjavanja viška radnika) 
   
   
-  
-
 #### PRAVO TRŽIŠNOG NATJECANJA
 - zastupanje u postupcima pred regulatornim tijelom - Agencijom za zaštitu tržišnog natjecanja, 
 - prijava namjere koncentracija i provedba koncentracija, 
@@ -182,3 +181,5 @@ Odvjetničko društvo ČERIN, MAR I PARTNERI d.o.o., Zagreb, osnovano je 2012. g
 - zastupanje pred upravnim tijelima, 
 - zastupanje u postupcima mirenja 
 - zastupanje u postupcima arbitraže – domaća arbitraža i arbitraža s međunarodnim elementom
+
+
