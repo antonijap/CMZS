@@ -19,19 +19,42 @@
         {% do assets.addCss('theme://css/app.css', 97) %}
     {% endblock %}
     {{ assets.css() }}
+    <script>
 
+    </script>
     {% block javascripts %}
-        {% do assets.addJs('jquery', 100) %}
+        {% do assets.addJs('theme://node_modules/jquery/dist/jquery.min.js') %}
+        {% do assets.addJs('theme://node_modules/owl.carousel/dist/owl.carousel.min.js') %}
+        {% do assets.addJs ('theme://js/app.js') %}
+        {% do assets.addJs ('https://maps.googleapis.com/maps/api/js?key=AIzaSyBF0A7u8NfDWM-LaiAhhAQCq8Znr7V7o94') %}
     {% endblock %}
     {{ assets.js() }}
 
-{% endblock head%}
+{% endblock head %}
 </head>
-<body id="top" class="{{ page.header.body_classes }}">
+<body>
 
 {% block header %}
     <div class="container-fluid languages">
-            {% include 'partials/langswitcher.html.twig' %}
+        {% include 'partials/langswitcher.html.twig' %}
+    </div>
+    <div class="container header">
+        <div class="row d-flex justify-content-between align-items-center">
+            <div class="col-auto">
+                <a href="{{ base() }}">
+                    <img src="{{ url("theme://images/logo.svg") }}" alt="CMZS">
+                </a>
+            </div>
+            <div class="col-auto">
+                <ul class="nav">
+                    {% for page in pages.children %} {% set active = (page.active or page.activeChild) ? 'active' : '' %}
+                    <li class="nav-item">
+                        <a class="nav-link {{ active }}" href="{{ page.url }}">{{ page.title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
     </div>
 {% endblock %}
 
@@ -40,13 +63,12 @@
     {% endblock %}
 {% endblock %}
 
-{% block footer %}
-    {# Footer #}
-{% endblock %}
+{% include 'partials/footer.html.twig' %}
 
 {% block bottom %}
     {{ assets.js('bottom') }}
 {% endblock %}
+
 
 </body>
 </html>

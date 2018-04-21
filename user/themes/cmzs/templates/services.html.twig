@@ -1,9 +1,12 @@
 {% extends 'base.html.twig' %} {% block content %}
-<div class="container">
+
+<div class="container team">
     <div class="row">
         <div class="col">
-                {{ page.content }}
+            <h1>{{ page.title }}</h1>
+            {{ page.content }}
         </div>
     </div>
 </div>
- {% endblock %}
+</div>
+{% endblock %}

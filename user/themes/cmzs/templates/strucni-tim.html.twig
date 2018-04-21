@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %} {% block content %}
+
+<div class="container team">
+    <div class="row">
+        <div class="col">
+            <h1>{{ page.title }}</h1>
+            {{ page.content }}
+        </div>
+    </div>
+    <div class="row images">
+        {% for page in page.collection %}
+            <div class="col-6 col-md-4 member">
+                {% set first_image = page.media.images|first %}
+                <a href="{{ page.url }}">
+                    <img src="{{ first_image.url }}" alt="{{ page.title }}" class="img-fluid">
+                    <h3>{{ page.title }}</h3>
+                    <p class="description">{{ page.header.description }}</p>
+                </a>         
+            </div>
+        {% endfor %}
+    </div>
+    
+</div>
+</div>
+{% endblock %}
