@@ -7055,7 +7055,27 @@ footer .margin-bottom {
 
 .person .img-fluid {
   object-fit: cover;
-  max-height: 300px; }
+  max-height: 560px;
+  min-width: 100%;
+  margin-bottom: 2em; }
+
+.person h1 {
+  text-align: center;
+  font-weight: 300;
+  line-height: 53px;
+  font-size: 38px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #58595B;
+  margin: 1em 0 0; }
+
+.person h2 {
+  font-size: 28px;
+  text-align: center;
+  color: #828282;
+  text-transform: none;
+  padding: 0;
+  margin: 0 0 3em; }
 
 .services p {
   margin-bottom: 5em; }
