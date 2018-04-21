@@ -1,5 +1,7 @@
 ---
 title: 'Über uns'
+content:
+    items: '@self.children'
 ---
 
 Die Rechtsanwaltskanzlei ČERIN, MAR I PARTNERI d.o.o., Zagreb, wurde im Jahr 2012 gegründet. Hinzu kommen die Rechtsanwaltskanzleien der Anwaltskanzleien, zu deren Seniorpartnern heute die Anwälte Ksenija Čerin und Rechtsanwältin Dubravka Mara gehören.

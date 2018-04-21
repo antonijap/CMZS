@@ -1,5 +1,7 @@
 ---
 title: About
+content:
+    items: '@self.children'
 ---
 
 Law firm ČERIN, MAR & PARTNERS Ltd., Zagreb, was founded in 2012 by merger of separate law offices of the attorneys who today are senior partners - Ksenija Čerin and Dubravko Mar.

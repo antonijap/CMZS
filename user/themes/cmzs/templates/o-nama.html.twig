@@ -21,7 +21,29 @@
             {{ page.content }}
         </div>
     </div>
-    {% include 'partials/contact.html.twig' %}
+
+    {% for page in page.collection %}
+       <h2>{{ page.title }}</h2>
+       {{ page.content }}
+       <form>
+       <div class="form-group">
+           <label for="name">{{ page.header.name }}</label>
+           <input type="name" class="form-control" id="name" aria-describedby="name">
+       </div>
+       <div class="form-group">
+           <label for="email">Email</label>
+           <input type="email" class="form-control" id="email" aria-describedby="email">
+       </div>
+       <div class="form-group">
+         <label for="message">{{ page.header.message }}</label>
+         <textarea class="form-control" id="message" rows="3"></textarea>
+       </div>
+       <div class="form-group text-center">
+           <button type="submit" class="btn btn-outline-primary send-button">{{ page.header.cta }}</button>
+       </div>
+       </form>
+    {% endfor %}
+
 </div>
 
 <div class="container-fluid no-padding">
