@@ -6634,22 +6634,22 @@ a.text-dark:hover, a.text-dark:focus {
   width: 1em; }
 
 .flag-icon-hr {
-  background-image: url(../node_modules/flag-icon-css/flags/4x3/hr.svg); }
+  background-image: url(../flag-icon-css/flags/4x3/hr.svg); }
 
 .flag-icon-hr.flag-icon-squared {
-  background-image: url(../node_modules/flag-icon-css/flags/1x1/hr.svg); }
+  background-image: url(../flag-icon-css/flags/1x1/hr.svg); }
 
 .flag-icon-en {
-  background-image: url(../node_modules/flag-icon-css/flags/4x3/en.svg); }
+  background-image: url(../flag-icon-css/flags/4x3/en.svg); }
 
 .flag-icon-en.flag-icon-squared {
-  background-image: url(../node_modules/flag-icon-css/flags/1x1/en.svg); }
+  background-image: url(../flag-icon-css/flags/1x1/en.svg); }
 
 .flag-icon-de {
-  background-image: url(../node_modules/flag-icon-css/flags/4x3/de.svg); }
+  background-image: url(../flag-icon-css/flags/4x3/de.svg); }
 
 .flag-icon-de.flag-icon-squared {
-  background-image: url(../node_modules/flag-icon-css/flags/1x1/de.svg); }
+  background-image: url(../flag-icon-css/flags/1x1/de.svg); }
 
 /*
  *  Owl Carousel - Core
