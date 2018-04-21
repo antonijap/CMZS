@@ -302,7 +302,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto", serif;
   font-weight: 500;
   line-height: 1.2;
   color: inherit; }
@@ -6616,9 +6616,71 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered td {
     border: 1px solid #dee2e6 !important; } }
 
+.flag-icon-background, .flag-icon {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat; }
+
+.flag-icon {
+  position: relative;
+  display: inline-block;
+  width: 1.33333em;
+  line-height: 1em; }
+
+.flag-icon:before {
+  content: '\00a0'; }
+
+.flag-icon.flag-icon-squared {
+  width: 1em; }
+
+.flag-icon-hr {
+  background-image: url(../node_modules/flag-icon-css/flags/4x3/hr.svg); }
+
+.flag-icon-hr.flag-icon-squared {
+  background-image: url(../node_modules/flag-icon-css/flags/1x1/hr.svg); }
+
+.flag-icon-en {
+  background-image: url(../node_modules/flag-icon-css/flags/4x3/en.svg); }
+
+.flag-icon-en.flag-icon-squared {
+  background-image: url(../node_modules/flag-icon-css/flags/1x1/en.svg); }
+
+.flag-icon-de {
+  background-image: url(../node_modules/flag-icon-css/flags/4x3/de.svg); }
+
+.flag-icon-de.flag-icon-squared {
+  background-image: url(../node_modules/flag-icon-css/flags/1x1/de.svg); }
+
 .demo {
   font-size: 12px; }
 
 @media (min-width: 768px) {
   .demo {
     font-size: 30px; } }
+
+.languages {
+  background: #F5F5F5; }
+
+.languages .col-auto {
+  padding: .2em .3em; }
+
+.languages .flag-icon {
+  opacity: 0.5; }
+
+.languages .flag-icon:hover {
+  opacity: 1; }
+
+.languages .active {
+  opacity: 1; }
+
+p {
+  line-height: 32px; }
+
+h2 {
+  font-weight: 300;
+  font-size: 38px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #58595B;
+  padding: 2em; }

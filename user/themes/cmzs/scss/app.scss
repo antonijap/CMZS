@@ -1,9 +1,10 @@
 // Variables
 $font-size-base: 1.125rem;
 $font-family-sans-serif: 'Roboto', sans-serif;
-$headings-font-family: 'Playfair Display', serif;
+$headings-font-family: 'Roboto', serif;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/flag-icon-css/sass/flag-icon";
 
 // STRUCTURE
 // 01 - Home / O nama
@@ -18,4 +19,37 @@ $headings-font-family: 'Playfair Display', serif;
     @include media-breakpoint-up(md) {
         font-size: 30px;
     }
+}
+
+.languages {
+    background: #F5F5F5;
+
+    .col-auto {
+        padding: .2em .3em;
+    }
+
+    .flag-icon {
+        opacity: 0.5;
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    .active {
+        opacity: 1;
+    }
+}
+
+p {
+    line-height: 32px;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 38px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #58595B;
+    padding: 2em;
 }

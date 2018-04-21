@@ -15,7 +15,7 @@
 
     {% block stylesheets %}
         {% do assets.addCss('https://use.fontawesome.com/releases/v5.0.10/css/all.css', 99) %}
-        {% do assets.addCss('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:300,400&amp;subset=latin-ext', 98) %}
+        {% do assets.addCss('https://fonts.googleapis.com/css?family=Roboto:300,400&amp;subset=latin-ext', 98) %}
         {% do assets.addCss('theme://css/app.css', 97) %}
     {% endblock %}
     {{ assets.css() }}
@@ -30,24 +30,18 @@
 <body id="top" class="{{ page.header.body_classes }}">
 
 {% block header %}
-    <div class="header">
-        
+    <div class="container-fluid languages">
+            {% include 'partials/langswitcher.html.twig' %}
     </div>
 {% endblock %}
 
 {% block body %}
-    <div class="container">
-    <h1>Naslov</h1>
-        {% block content %}
-            {{ page.content }}
-        {% endblock %}
-    </div>
+    {% block content %}
+    {% endblock %}
 {% endblock %}
 
 {% block footer %}
-    <div class="footer text-center">
-        
-    </div>
+    {# Footer #}
 {% endblock %}
 
 {% block bottom %}
