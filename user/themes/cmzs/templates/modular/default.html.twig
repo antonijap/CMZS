@@ -1,14 +1,14 @@
 <div id="accordion">
   <div class="card">
-    <div class="card-header" id="headingOne">
+    <div class="card-header" id="heading{{ page.header.id }}">
       <h5 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapse{{ page.header.id }}" aria-expanded="true" aria-controls="collapse{{ page.header.id }}">
             {{ page.title }}
         </button>
       </h5>
     </div>
 
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+    <div id="collapse{{ page.header.id }}" class="collapse show" aria-labelledby="heading{{ page.header.id }}" data-parent="#accordion">
       <div class="card-body">
         {{ page.content }}
       </div>

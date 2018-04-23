@@ -7088,3 +7088,6 @@ footer .margin-bottom {
 .services ul li {
   list-style-type: circle;
   line-height: 40px; }
+
+.services .card {
+  margin-top: .2em; }
