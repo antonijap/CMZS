@@ -9,6 +9,8 @@ $(document).ready(function(){
         autoplayTimeout: 4000
     })
 
+    $('.collapse').collapse()
+
     var cmzs = { lat: 45.812485, lng: 15.980098 };
     map = new google.maps.Map(document.getElementById("map"), {
       zoom: 17,

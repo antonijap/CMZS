@@ -41,8 +41,14 @@ $theme-colors: (
         }
     }
 
+    a {
+        text-transform: uppercase;
+        color: #818181;
+    }
+
     .active {
         opacity: 1;
+        color: #333333;
     }
 }
 
@@ -240,7 +246,6 @@ footer {
     }
 
     ul {
-        margin-bottom: 3em;
         li {
             list-style-type: circle;
             line-height: 40px;

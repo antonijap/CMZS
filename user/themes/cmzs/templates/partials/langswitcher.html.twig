@@ -27,8 +27,9 @@
 
     {% if show_language %}
         <div class="col-auto">
-            <a href="{{ lang_url ~ uri.params }}">
-                <span class="flag-icon flag-icon-{{ lang }} {{ active_class }}"></span>
+            <a href="{{ lang_url ~ uri.params }}" class="{{ active_class }}">
+                {{ lang }}
+                {# <span class="flag-icon flag-icon-{{ lang }} {{ active_class }}"></span> #}
             </a>
             {# <a href="{{ lang_url ~ uri.params }}" class="{{ active_class }}">
             <span class="flag-icon flag-icon-{{ lang }}"></span> {{ native_name(language)|capitalize }}

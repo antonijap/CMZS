@@ -6922,8 +6922,13 @@ a.text-dark:hover, a.text-dark:focus {
 .languages .flag-icon:hover {
   opacity: 1; }
 
+.languages a {
+  text-transform: uppercase;
+  color: #818181; }
+
 .languages .active {
-  opacity: 1; }
+  opacity: 1;
+  color: #333333; }
 
 p {
   line-height: 32px; }
@@ -7079,9 +7084,6 @@ footer .margin-bottom {
 
 .services p {
   margin-bottom: 5em; }
-
-.services ul {
-  margin-bottom: 3em; }
 
 .services ul li {
   list-style-type: circle;
