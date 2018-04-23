@@ -1,6 +1,8 @@
 ---
-title: 'Ugovorno trgovacko pravo'
+title: 'Ugovorno trgovačko pravo'
 ---
 
-- Lorem ipsum
-- dolor sit
+- sastavljanje svih vrsta trgovačkih ugovora uključujući ugovore o distribuciji, ugovore o franšizi, ugovore o licenci, ugovore o zastupanju, itd
+- pravno savjetovanja pri sklapanju pravnih poslova
+- savjetovanje/zastupanje u pregovorima kod sklapanja pravnih poslova
+- izrada pravnih mišljenja
