@@ -88,9 +88,19 @@ class Form extends Iterator implements \Serializable
         $this->header_data = isset($header->data) ? $header->data : [];
 
         if ($form) {
+            // If form is given, use it.
             $this->items = $form;
+        } elseif ($name && isset($header->forms[$name])) {
+            // If form with that name was found, use that.
+             $this->items = $header->forms[$name];
         } elseif (isset($header->form)) {
-            $this->items = $header->form; // for backwards compatibility
+            // For backwards compatibility.
+            $this->items = $header->form;
+        } elseif (!empty($header->forms)) {
+            // Pick up the first form.
+            $form = reset($header->forms);
+            $name = key($header->forms);
+            $this->items = $form;
         }
 
         // Add form specific rules.
@@ -392,7 +402,10 @@ class Form extends Iterator implements \Serializable
             (array) $settings,
             ['name' => $post['name']]
         );
-
+        // Allow plugins to adapt settings for a given post name
+        // Useful if schema retrieval is not an option, e.g. dynamically created forms
+        $grav->fireEvent('onFormUploadSettings', new Event(['settings' => &$settings, 'post' => $post]));
+        
         $upload = $this->normalizeFiles($_FILES['data'], $settings->name);
 
         // Handle errors and breaks without proceeding further
@@ -531,7 +544,7 @@ class Form extends Iterator implements \Serializable
 
 
         // json_response
-        return [
+        $json_response = [
             'status' => 'success',
             'session' => \json_encode([
                 'sessionField' => base64_encode($uri),
@@ -539,6 +552,74 @@ class Form extends Iterator implements \Serializable
                 'field' => $settings->name
             ])
         ];
+
+        // Return JSON
+        header('Content-Type: application/json');
+        echo json_encode($json_response);
+        exit;
+    }
+
+    /**
+     * Removes a file from the flash object session, before it gets saved
+     *
+     * @return bool True if the action was performed.
+     */
+    public function filesSessionRemove()
+    {
+        $grav = Grav::instance();
+        $post = $_POST;
+        $session = $grav['session'];
+        // Retrieve the current session of the uploaded files for the field
+        // and initialize it if it doesn't exist
+        $sessionField = base64_encode($grav['uri']->url(true));
+        $request      = \json_decode($post['session']);
+
+        // Ensure the URI requested matches the current one, otherwise fail
+        if ($request->sessionField !== $sessionField) {
+            return false;
+        }
+
+        // Retrieve the flash object and remove the requested file from it
+        $flash    = $session->getFlashObject('files-upload');
+        $endpoint = $flash[$request->sessionField][$request->field][$request->path];
+
+        if (isset($endpoint)) {
+            if (file_exists($endpoint['tmp_name'])) {
+                unlink($endpoint['tmp_name']);
+            }
+
+            unset($endpoint);
+        }
+
+        // Walk backward to cleanup any empty field that's left
+        // Field
+        if (isset($flash[$request->sessionField][$request->field][$request->path])) {
+            unset($flash[$request->sessionField][$request->field][$request->path]);
+        }
+
+        // Field
+        if (isset($flash[$request->sessionField][$request->field]) && empty($flash[$request->sessionField][$request->field])) {
+            unset($flash[$request->sessionField][$request->field]);
+        }
+
+        // Session Field
+        if (isset($flash[$request->sessionField]) && empty($flash[$request->sessionField])) {
+            unset($flash[$request->sessionField]);
+        }
+
+
+        // If there's anything left to restore in the flash object, do so
+        if (count($flash)) {
+            $session->setFlashObject('files-upload', $flash);
+        }
+
+        // json_response
+        $json_response = ['status' => 'success'];
+
+        // Return JSON
+        header('Content-Type: application/json');
+        echo json_encode($json_response);
+        exit;
     }
 
     /**
@@ -547,11 +628,14 @@ class Form extends Iterator implements \Serializable
     public function post()
     {
         $grav = Grav::instance();
-        $uri = $grav['uri']->url;
+        $uri = $grav['uri'];
+        $url = $uri->url;
         $session = $grav['session'];
 
-        if (isset($_POST)) {
-            $this->values = new Data(isset($_POST) ? (array)$_POST : []);
+        $post = $uri->post();
+
+        if ($post) {
+            $this->values = new Data((array)$post);
             $data = $this->values->get('data');
 
             // Add post data to form dataset
@@ -616,8 +700,12 @@ class Form extends Iterator implements \Serializable
         // Process previously uploaded files for the current URI
         // and finally store them. Everything else will get discarded
         $queue = $session->getFlashObject('files-upload');
-        $queue = $queue[base64_encode($uri)];
+        $queue = $queue[base64_encode($url)];
         if (is_array($queue)) {
+            // Allow plugins to implement additional / alternative logic
+            // Add post to event data
+            $grav->fireEvent('onFormStoreUploads', new Event(['queue' => &$queue, 'form' => $this, 'post' => $post]));
+            
             foreach ($queue as $key => $files) {
                 foreach ($files as $destination => $file) {
                     if (!rename($file['tmp_name'], $destination)) {
