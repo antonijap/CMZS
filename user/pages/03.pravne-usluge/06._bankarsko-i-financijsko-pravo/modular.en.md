@@ -1,9 +1,9 @@
 ---
-title: 'Bankarsko i financijsko pravo'
+title: 'Banking and Financial Law'
 id: 6
 ---
 
-* priprema i sastavljanje dokumentacije u svezi bankarskih i financijskih transakcija, instrumenata osiguranja, vrijednosnih papira, zajmova i ostalih financijskih instrumenata
-* pravno savjetovanje i izrada dokumenata za bankarsko poslovanje
-* izrada pravnih mišljenja
-* osiguranje transakcija
+* Preparation and compilation of documentation related to banking and financial transactions, security instruments, securities, loans and other financial instruments
+* Legal counselling and preparation of documents for banking affairs
+* Preparation of legal opinions
+* Securing transactions

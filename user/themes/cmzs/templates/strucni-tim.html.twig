@@ -10,12 +10,20 @@
     <div class="row images">
         {% for page in page.collection %}
             <div class="col-6 col-md-4 member">
-                {% set first_image = page.media.images|first %}
-                <a href="{{ page.url }}">
-                    <img src="{{ first_image.url }}" alt="{{ page.title }}" class="img-fluid">
-                    <h3>{{ page.title }}</h3>
-                    <p class="description">{{ page.header.description }}</p>
-                </a>         
+                {% if page.media.images|first %}
+                    {% set first_image = page.media.images|first %}
+                    <a href="{{ page.url }}">
+                        <img src="{{ first_image.url }}" alt="{{ page.title }}" class="img-fluid">
+                        <h3>{{ page.title }}</h3>
+                        <p class="description">{{ page.header.description }}</p>
+                    </a>   
+                {% else %}
+                    <a href="{{ page.url }}">
+                        <img src="{{ url("theme://images/no-image.jpg") }}" alt="{{ page.title }}" class="img-fluid">
+                        <h3>{{ page.title }}</h3>
+                        <p class="description">{{ page.header.description }}</p>
+                    </a>   
+                {% endif %}
             </div>
         {% endfor %}
     </div>

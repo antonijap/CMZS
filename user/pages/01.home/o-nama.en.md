@@ -4,10 +4,10 @@ content:
     items: '@self.children'
 ---
 
-Law firm ČERIN, MAR & PARTNERS Ltd., Zagreb, was founded in 2012 by merger of separate law offices of the attorneys who today are senior partners - Ksenija Čerin and Dubravko Mar.
+The Law firm ČERIN, MAR I PARTNERI d.o.o. (Ltd.) in Zagreb was founded in 2012 with the merger of the separate law firms of today's senior partners – lawyers Ksenija Čerin and Dubravko Mar.
+ 
+We work together with an extensive network of professionally qualified associates, both in the Republic of Croatia and abroad (Germany, Austria, Italy, Great Britain, Spain, USA), including a complementary network in the practice of law, notary public, tax advisory, auditing firms and scientific institutions. Due to the aforementioned, and especially due to the organisation of tasks and experience of its lawyers, the firm is capable of providing and performing a wide range of legal services in a quality and professional manner.
+ 
+## Areas of specialization
 
-The Law firm ČERIN, MAR & PARTNERS Ltd., Zagreb, cooperates with a wide network of professionally capable associates both in the Republic of Croatia and abroad (Germany, Austria, Italy, Great Britain, Spain, USA), which also includes a complementary network of associates in the areas of law, public notarisation, tax consultations, auditing companies and scientific institutions. It is due to the abovementioned, however primarily due to the organisation of business operations and the experience of their attorneys, that the company is c
-
-## Areas of Specialisation
-
-If, through acquired experience, years of practice and continuing education, certain branches of law should be especially emphasized as our areas of specialisation, those should certainly be: Corporate law and Contract commercial law; Mergers and acquisitions; International commercial law; Competition law; Labour law; Intellectual property rights; Banking law; Tax law; the Aliens Act; Energetics; Civil law; Real estate transactions; Privatisation; Enforcement law and debt collection; Foreign Investment Act; Mediation, Arbitration and international arbitration; Legal representation in litigations.  
+If we were asked to highlight certain branches of law that have proven to be our specialty through gained experience, years of practice and continuous education, those would certainly be – Corporate and contractual commercial law; Mergers and acquisitions; International commercial law;  Market competition law; Labour law; Intellectual property law; Personal data protection; Banking law; Tax law, Status law for foreigners; Power industry, Civil law; Real estate; Conversion and privatisation; Enforcement and debt collection; Foreign investments; Mediation, arbitration and international arbitration; Representation in litigation.

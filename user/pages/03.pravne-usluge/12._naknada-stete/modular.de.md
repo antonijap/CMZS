@@ -1,8 +1,8 @@
 ---
-title: 'Naknada štete'
-id: 14
+title: Schadensersatz
+id: 18
 ---
 
-* pravno savjetovanje
-* pripremanje i sastavljanje zahtjeva za naknadu štete
-* zastupanje pred osiguravajućim društvima i sudovima
+* Rechtsberatung
+* Vorbereitung und Verfassung von Schadensersatzanträgen
+* Vertretung vor Versicherungsgesellschaften und Gerichten

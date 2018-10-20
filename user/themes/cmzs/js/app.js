@@ -1,4 +1,7 @@
-$(document).ready(function(){
+$(document).ready(function () {
+
+    $('.simple-logo').hide().delay(500).fadeIn(1000);
+
     $('.owl-carousel').owlCarousel({
         margin: 0,
         loop: true,
@@ -11,13 +14,16 @@ $(document).ready(function(){
 
     $('.collapse').collapse()
 
-    var cmzs = { lat: 45.812485, lng: 15.980098 };
+    var cmzs = {
+        lat: 45.812485,
+        lng: 15.980098
+    };
     map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 17,
-      center: cmzs
+        zoom: 17,
+        center: cmzs
     });
     var marker = new google.maps.Marker({
-      position: cmzs,
-      map: map
+        position: cmzs,
+        map: map
     });
 });

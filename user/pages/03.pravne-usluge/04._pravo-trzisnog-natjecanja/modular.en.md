@@ -1,10 +1,10 @@
 ---
-title: 'Pravo tržišnog natjecanja'
+title: 'Competition Law'
 published: true
 id: 4
 ---
 
-* zastupanje u postupcima pred regulatornim tijelom - Agencijom za zaštitu tržišnog natjecanja
-* prijava namjere koncentracija i provedba koncentracija
-* pravno savjetovanje u svezi zabranjenih sporazuma, zlouporabe vladajućeg položaja i ograničavajućeg djelovanja
-* pravno savjetovanje o usklađenosti komercijalnih uvjeta s propisima i praksom europskih tijela
+* Representation in procedures in front of regulatory authority – Croatian Competition Agency
+* Notification of intent of concentration and implementation of concentration
+* Legal counselling related to forbidden agreements, misuse of dominant position and restrictive action
+* Legal counselling on alignment of commercial conditions with the regulations and practices of European bodies

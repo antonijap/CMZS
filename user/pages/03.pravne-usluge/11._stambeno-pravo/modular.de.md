@@ -1,10 +1,10 @@
 ---
-title: 'Stambeno pravo'
-id: 13
+title: Wohnrecht
+id: 11
 ---
 
-* zastupanje u predmetnima izmjere etažiranja i zemljišnoknjižnog upisa
-* zastupanje u postupcima u svezi najma I zakupa nekretnina
-* zastupanje u postupcima statusa zaštićenog najmoprimca
-* zastupanje u postupcima prava na stjecanje stana, iseljenja i/ili drugih pripadajućih prava
-* posjedovna zaštita
+* Vertretung in Sachen der Vermessung der Eintragung des Wohnungseigentums und Grundbucheintrags
+* Vertretung in Verfahren bezüglich der Miete und Pacht von Immobilien
+* Vertretung in Verfahren des Status des geschützten Mieters
+* Vertretung in Verfahren des Wohnungserwerbsrechts, Auszugs und/oder anderer dazugehöriger Rechte
+* Besitzschutz

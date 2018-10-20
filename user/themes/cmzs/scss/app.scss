@@ -12,6 +12,7 @@ $theme-colors: (
 @import "../node_modules/owl.carousel/src/scss/owl.carousel";
 @import "../node_modules/owl.carousel/src/scss/owl.theme.default";
 
+
 // STRUCTURE
 // 01 - Home / O nama
 // 02 - Stručni tim
@@ -25,6 +26,10 @@ $theme-colors: (
     @include media-breakpoint-up(md) {
         font-size: 30px;
     }
+}
+
+.nav-link {
+    columns: #212529;
 }
 
 .languages {
@@ -67,12 +72,15 @@ h1 {
 
 h2 {
     font-weight: 300;
-    font-size: 38px;
+    font-size: 21px;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: uppercase;
     color: #58595B;
     padding: 2em;
+    @include media-breakpoint-up(xl) {
+        font-size: 38px;
+    }
 }
 
 h3 {
@@ -99,7 +107,7 @@ h4 {
 
     .nav-link {
         color: black;
-
+        padding: 0.5em 1em;
         &:hover {
             background: #F2F2F2;
             border-radius: 4px;
@@ -109,6 +117,7 @@ h4 {
     .active {
         background: #F2F2F2;
         border-radius: 4px;
+        padding: 0.5em 1em;
     }
 }
 
@@ -139,9 +148,17 @@ h4 {
         position: absolute;
         z-index: 9999;
         transform-origin: center;
-        top: 45%;  /* position the top  edge of the element at the middle of the parent */
+        top: 37%;
+        /* position the top  edge of the element at the middle of the parent */
         left: 50%; /* position the left edge of the element at the middle of the parent */
         transform: translate(-50%, -50%);
+        display: none;
+        width: 70%;
+        // background: #818181;
+        @include media-breakpoint-up(xl) {
+            top: 45%;
+            width: 30%;
+        }
     }
 }
 
@@ -191,6 +208,9 @@ footer {
 
     h3 {
         margin-bottom: 0;
+        &:hover {
+            color: #8e1919;
+        }
     }
     
     img {
@@ -199,6 +219,7 @@ footer {
         margin-bottom: 16px;
         display: block;
         min-height: 330px;
+        object-fit: cover;
 
     }
 
@@ -209,12 +230,18 @@ footer {
     .member {
         margin-bottom: 2em;
     }
+
+    a {
+        &:hover {
+            text-decoration: none;
+        }
+    }
 }
 
 .person {
     .img-fluid {
         object-fit: cover;
-        max-height: 560px;
+        max-height: 740px;
         min-width: 100%;
         margin-bottom: 2em;
     }

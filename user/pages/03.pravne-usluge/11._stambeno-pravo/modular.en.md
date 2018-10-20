@@ -1,10 +1,10 @@
 ---
-title: 'Stambeno pravo'
-id: 13
+title: 'Housing Law'
+id: 11
 ---
 
-* zastupanje u predmetnima izmjere etažiranja i zemljišnoknjižnog upisa
-* zastupanje u postupcima u svezi najma I zakupa nekretnina
-* zastupanje u postupcima statusa zaštićenog najmoprimca
-* zastupanje u postupcima prava na stjecanje stana, iseljenja i/ili drugih pripadajućih prava
-* posjedovna zaštita
+* Representation in cases related to flat ownership affairs and land register entry
+* Representation in procedures related to real estate lease and rental
+* Representation in protected lessee status procedures
+* Representation in procedures for obtaining rights to property, eviction and/or other related rights
+* Possession protection

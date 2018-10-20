@@ -1,16 +1,16 @@
 ---
-title: 'Radno pravo'
+title: Arbeitsrecht
 id: 3
 ---
 
-- sastavljanje ugovora o radu, 
-- provođenje disciplinskih postupaka i otkazivanje ugovora o radu
-- savjetovanje u svezi organizacije rada i sistematizacije poslova
-- savjetovanje i sastavljanje općih akata poslodavca vezanih uz radnopravne odnose, 
-- pravno savjetovanje u svezi zaštite na radu
-- pravno savjetovanje u svezi zapošljavanja stranaca,
-- savjetovanja poslodavca/radnika o pravima i obvezama iz radnog odnosa
-- zastupanje u radnim sporovima
-- zastupanje poslodavca/radnika prema radnicima/poslodavcima
-- sudjelovanje u pregovorima između poslodavaca i sinidkata
-- savjetovanje i provođenje restrukturiranja i kolektivna otkazivanja viška radnika (savjetovanje i sudjelovanje u izradi programa zbrinjavanja viška radnika) 
+* Verfassung von Arbeitsverträgen
+* Durchführung von Disziplinarverfahren und Kündigung von Arbeitsverträgen
+* Beratung bezüglich der Arbeitsorganisation und Systematisierung der Arbeitsplätze
+* Beratung und Verfassung von allgemeinen Akten des Arbeitgebers bezüglich arbeitsrechtlicher Verhältnisse
+* Rechtsberatung bezüglich des Arbeitsschutzes
+* Rechtsberatung bezüglich der Beschäftigung ausländischer Mitarbeiter
+* Beratung für den Arbeitgeber/Arbeitnehmer über die Rechte und Pflichten aus dem Arbeitsverhältnis
+* Vertretung in Arbeitsstreitigkeiten
+* Vertretung des Arbeitgebers/Arbeitnehmers gegenüber Arbeitnehmern/Arbeitgebern
+* Teilnahme an Verhandlungen zwischen Arbeitgebern und Gewerkschaften
+* Beratung und Durchführung von Restrukturierungen und kollektiven Kündigungen des Arbeiterüberschusses (Beratung und Teilnahme an der Erstellung von Programmen zur Versorgung des Arbeiterüberschusses)

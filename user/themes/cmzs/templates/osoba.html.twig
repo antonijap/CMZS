@@ -5,9 +5,17 @@
         <div class="col">
             <h1>{{ page.title }}</h1>
             <h2>{{ page.header.description }}</h2>
-            {% set first_image = page.media.images|first %}
-            <img src="{{ first_image.url }}" alt="{{ page.title }}" class="img-fluid">
-            {{ page.content }}
+
+            {% if page.media.images|first %}
+                {% set first_image = page.media.images|first %}
+                <img src="{{ first_image.url }}" alt="{{ page.title }}" class="img-fluid">
+                {{ page.content }}
+            {% else %}
+                {{ page.content }}
+            {% endif %}
+
+            {# {% set image = page.media['mar.jpg'] %}
+            <img src="{{ image.url }}" alt="{{ page.title }}" class="img-fluid"> #}
         </div>
     </div>
 </div>

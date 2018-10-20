@@ -1,14 +1,14 @@
 ---
-title: 'Pravo trgovačkih društava'
+title: 'Company Law'
 id: 2
 ---
 
-- pravno savjetovanje i zastupanje u vezi osnivanja trgovačkih društava, podružnica,  predstavništava i ustanova
-- priprema i izrada pravnih akata vezanih za osnivanje, zastupanje u postupcima registracije trgovačkih društava i ustanova, ishođenje - dozvola za osnivanje i početak rada
-- sudjelovanje i pravno savjetovanje u svezi rada tijela trgovačkih društava i ustanova, uključujući pripremu i izradu korporativnih pravila
-- priprema i sudjelovanje u radu glavnih skupština
-sudjelovanje, savjetovanje i zastupanje u postupcima dubinskog snimanja (due-dilligence), uključujući izradu ponudbene dokumentacije
-- pravno savjetovanje u svezi statusnih promjena društava (pripajanje, spajanje, podjela, preoblikovanje)
-- preuzimanje dioničkih društava
-- zastupanje u postupcima likvidacije trgovačkih društava, predstečajnim i stečajnim postupcima
-- zastupanje u statusnim sporovima
+* Legal counselling and representation when founding companies, subsidiaries, branch offices and institutions
+* Preparation and compiling legal acts related to foundation, representation in registration procedures for companies and institutions, obtaining permits for foundation and beginning of operations
+* Participation and legal counselling related to the activities of bodies of companies and institutions, including preparing and drafting corporate rules
+* Preparation and participation in the work of general assemblies
+* Participation, counselling and representation in due-diligence procedures, including preparation of documentation 
+* Legal counselling related to company status changes (mergers, acquisitions, division, transformation)
+* Takeovers of joint stock companies
+* Representation in company liquidation procedures, pre-bankruptcy and bankruptcy procedures
+* Representation in status disputes  

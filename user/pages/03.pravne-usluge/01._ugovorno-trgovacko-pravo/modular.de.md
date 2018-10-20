@@ -1,10 +1,10 @@
 ---
-title: 'Ugovorno trgovačko pravo'
+title: Vertragshandelsrecht
 published: true
 id: 1
 ---
 
-- sastavljanje svih vrsta trgovačkih ugovora uključujući ugovore o distribuciji, ugovore o franšizi, ugovore o licenci, ugovore o zastupanju, itd
-- pravno savjetovanja pri sklapanju pravnih poslova
-- savjetovanje/zastupanje u pregovorima kod sklapanja pravnih poslova
-- izrada pravnih mišljenja
+* Verfassung sämtlicher Arten von Handelsverträgen, einschließlich Distributionsverträge, Franchiseverträge, Lizenzverträge, Vertretungsverträge usw.
+* Rechtsberatung bei Schließung von Rechtsgeschäften
+* Beratung/Vertretung in Verhandlungen bei Schließung von Rechtsgeschäften
+* Erstellung von Rechtsgutachten

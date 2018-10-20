@@ -1,11 +1,11 @@
 ---
-title: 'Stečajno pravo i predstečajni postupci'
+title: 'Bankruptcy Law and Pre-bankruptcy procedures'
 published: true
 id: 5
 ---
 
-* pravno savjetovanja u svezi otvaranja stečajnog postupka
-* prijavljivanje potraživanja u stečajnu masu
-* zastupanje u stečajnim postupcima
-* zastupanje i pravno savjetovanje u predstečajnim postupcima
-* zastupanje u postupcima pretraživanja baze podataka o pokrenutim stečajnim i predstečajnim postupcima
+* Legal counselling related to initiating the bankruptcy procedure
+* Reporting claims in the bankruptcy estate
+* Representation in bankruptcy procedures
+* Representation and legal counselling in pre-bankruptcy procedures
+* Representation in procedures of searching database on initiated bankruptcy and pre-bankruptcy procedures

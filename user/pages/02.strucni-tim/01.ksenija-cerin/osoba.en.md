@@ -1,7 +1,9 @@
 ---
 title: 'Ksenija Čerin'
-description: 'Attorney-senior partner'
+description: 'Lawyer - senior partner'
 visible: true
 ---
 
-Ksenija Čerin, attorney-senior partner, graduated from the Faculty of Law, University of Zagreb, in 1993. She has been listed on the list of attorneys since 1996, and from 1998 has operated an independent office until the founding of the Law firm Čerin, Mar & partners ltd. She actively speaks and writes English, and has a passive knowledge of Italian. 
+Ksenija Čerin, lawyer - senior partner, graduated from the Faculty of Law, University of Zagreb, in 1993. She joined the bar in 1996, and she ran her independent law firm until the establishment of the law firm Čerin, Mar i partneri d.o.o. (Ltd.). She actively speaks and writes in English, and uses Italian passively.
+ 
+Contractual commercial law; Company law; Labour Law; Market competition law; Bankruptcy law and pre-bankruptcy procedures; Banking and financial law; Debt collection; Legal advisory; Relations with regulatory authorities; Tax law; Conversions and privatisation; Administrative procedures; Dispute resolution.

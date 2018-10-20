@@ -1,13 +1,13 @@
 ---
-title: 'Über uns'
+title: 'Über Uns'
 content:
     items: '@self.children'
 ---
 
-Die Rechtsanwaltskanzlei ČERIN, MAR I PARTNERI d.o.o., Zagreb, wurde im Jahr 2012 gegründet. Hinzu kommen die Rechtsanwaltskanzleien der Anwaltskanzleien, zu deren Seniorpartnern heute die Anwälte Ksenija Čerin und Rechtsanwältin Dubravka Mara gehören.
+Die Rechtsanwaltsgesellschaft ČERIN, MAR I PARTNERI d.o.o. (GmbH) in Zagreb wurde im Jahr 2012 durch den Zusammenschluss eigenständiger Rechtsanwaltskanzleien zweier Rechtsanwälte gegründet, die heute Senior Partner sind – Rechtsanwältin Ksenija Čerin und Rechtsanwalt Dubravko Mar.
+ 
+Wir verfügen über ein groß aufgestelltes Netzwerk an qualifizierten Mitarbeitern, sowohl in der Republik Kroatien als auch im Ausland (Deutschland, Österreich, Italien, Großbritannien, Spanien, USA), einschließlich des komplementären Netzwerks an Rechtsanwälten, Notaren, Steuerberatern, Wirtschaftsprüfern und Forschungseinrichtungen. All dies soeben angeführte, und vor allem die Arbeitsorganisation und Erfahrung ihrer Rechtsanwälte, ermöglichen es der Gesellschaft, eine weit gefächerte Palette an Rechtsdienstleistungen gekonnt und fachlich auszuführen.
+ 
+## Spezialisierungsgebiete
 
-CERIN, MAR und PARTNER doo, Zagreb, kooperiert mit einem breiten Netzwerk hochqualifizierter Mitarbeiter in Kroatien und im Ausland (Deutschland, Österreich, Italien, Großbritannien, Spanien, USA), einschließlich eines komplementären Netzwerks von Mitarbeitern in der Gesetzgebung und im öffentlichen Notar, Steuerberatung, Prüfungsgesellschaften und wissenschaftlichen Einrichtungen. Aufgrund all dessen und insbesondere der Geschäftsorganisationen und der Erfahrung ihrer Anwälte war das Unternehmen in der Lage, eine breite Palette von juristischen Dienstleistungen in einer hochwertigen und professionellen Art und Weise anzubieten und durchzuführen.
-
-## Bereiche der Spezialisierung
-
-Wenn aufgrund bestimmter Erfahrungen, langjähriger Praxis und kontinuierlicher Bildung bestimmte Rechtszweige als Bereiche unserer Spezialisierung herausgehoben werden sollten, dann wäre dies sicherlich - Gesellschaftsrecht und Vertragsrecht; Fusionen und Übernahmen; Internationales Handelsrecht; Wettbewerbsrecht; Arbeitsrecht; Rechte an geistigem Eigentum; Bankrecht; Steuerrecht; Gesetz über Ausländer; Energie; Zivilrecht; Immobilien; Umwandlung und Privatisierung; Ausübung und Inkasso; Gesetz über ausländische Investitionen; Schmuggel, Schiedsverfahren und internationale Schiedsverfahren; Vertretung in Rechtsstreitigkeiten
+Würden wir bestimmte Rechtszweige hervorheben wollen, welche sich durch die erlangten Erfahrungen, die langjährige Praxis und eine andauernde Fortbildung als für uns primär erwiesen haben, dann wären dies in jedem Fall - Korporations- und Vertragshandelsrecht; Verschmelzung und Übernahme; Internationales Handelsrecht; Wettbewerbsrecht: Arbeitsrecht; Recht des geistigen Eigentums; Schutz personenbezogener Daten; Bankenrecht; Steuerrecht; Statusfragen von Ausländern; Energiesektor; Zivilrecht; Immobilienverkehr; Umwandlung und Privatisierung; Zwangsvollstreckungsrecht und Forderungseinzug; Auslandsinvestitionen; Schlichtung, Arbitrage und internationale Arbitrage; Prozessvertretungen.

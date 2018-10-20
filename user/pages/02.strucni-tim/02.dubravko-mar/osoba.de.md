@@ -1,7 +1,10 @@
 ---
 title: 'Dubravko Mar'
-description: 'Odvjetnik, Senior partner'
+description: 'Rechtsanwalt - Senior Partner'
 visible: true
 ---
 
-Dobravko mar, odvjetnik - senior partner, diplomirao na Pravnom fakultetu Sveučilišta u Zagrebu 1999. godine. Od 2002. godine upisan u imenik odvjetnika, a od 2009. godine vodio svoj samostalni ured do osnivanja Odvjetničkog društva Čerin, Mar i partneri d.o.o. Postdiplomski studij na Ekonomskom fakultetu u Zagrebu – MBA business management. Aktivno govori i piše engleski, francuski i slovenski, pasivno njemački jezik.
+Dubravko Mar, Rechtsanwalt - Senior Partner, hat sein Studium an der Fakultät für Rechtswissenschaften an der Universität in Zagreb im Jahr 1999 abgeschlossen. Seit 2002 ist er im Rechtsanwaltsregister eingetragen und seit 2009 leitete er seine selbstständige Kanzlei bis zur Gründung der Rechtsanwaltsgesellschaft Čerin, Mar i partneri d.o.o. (GmbH). Das Postdiplomstudium im MBA Business Management hat er an der Wirtschaftswissenschaftlichen Fakultät in Zagreb absolviert. Er bedient sich aktiv der englischen, französischen und slowenischen Sprache in Wort und Schrift sowie passiv der deutschen Sprache.
+ 
+Vertragshandelsrecht; Handelsgesellschaftsrecht; Arbeitsrecht; Wettbewerbsrecht; Geistiges Eigentum; Non-Profit-Organisationen; Forderungseinzug; Rechtsberatung; Energiesektor; Steuerrecht; Statusrecht von Ausländern; Verwaltungsverfahren; Ordnungswidrigkeitenrecht; Streitbeilegung.
+ 

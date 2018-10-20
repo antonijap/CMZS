@@ -1,8 +1,8 @@
 ---
-title: 'Naknada štete'
-id: 14
+title: 'Damage compensation'
+id: 18
 ---
 
-* pravno savjetovanje
-* pripremanje i sastavljanje zahtjeva za naknadu štete
-* zastupanje pred osiguravajućim društvima i sudovima
+* Legal counselling
+* Preparation and compiling damage compensation requests
+* Representation in front of insurance companies and courts

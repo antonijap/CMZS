@@ -1,14 +1,10 @@
 ---
-title: 'Upravni postupci'
-id: 21
+title: Streitbeilegung
+id: 23
 ---
 
-* zastupanje u postupcima inspekcijskog nadzora
-* zastupanje u postupcima izvlaštenja
-* zastupanje u postupcima povrata oduzete imovine
-* zastupanje u postupcima javne nabave
-* zastupanje pred poreznim tijelima
-* zastupanje u postupcima zaštite tržišnog natjecanja
-* zastupanje pri izdavanju lokacijskih dozvola i dozvola za građenje
-* zastupanje u postupcima ispred centara za socijalnu skrb
-* zastupanje u statusnim sporovima stranaca pred MUP RH i drugim državnim tijelima
+* Vertretung vor Handelsgerichten – Handelsstreitigkeiten, Streitigkeiten bezüglich des Urheberrechtsschutzes, Insolvenzverfahren, Zwangsvollstreckungsverfahren
+* Vertretung vor Gerichten – Streitigkeiten bezüglich Sachenrechte an Immobilien, Auszugsverfahren, Streitigkeiten um die Erfüllung rechtsverbindlicher Verträge, Streitigkeiten bezüglich Schadensersatz, Arbeitsstreitigkeiten, familienrechtliche Verfahren, Nachlassverfahren, Zwangsvollstreckungsverfahren
+* Vertretung vor Verwaltungsorganen
+* Vertretung in Schlichtungsverfahren
+* Vertretung in Schiedsverfahren – inländische Arbitrage und Arbitrage mit internationalem Element

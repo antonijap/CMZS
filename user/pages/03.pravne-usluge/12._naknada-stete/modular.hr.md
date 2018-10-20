@@ -1,6 +1,6 @@
 ---
 title: 'Naknada štete'
-id: 14
+id: 12
 ---
 
 * pravno savjetovanje

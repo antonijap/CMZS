@@ -1,11 +1,11 @@
 ---
-title: 'Stečajno pravo i predstečajni postupci'
+title: 'Insolvenzrecht und Vorinsolvenzverfahren'
 published: true
 id: 5
 ---
 
-* pravno savjetovanja u svezi otvaranja stečajnog postupka
-* prijavljivanje potraživanja u stečajnu masu
-* zastupanje u stečajnim postupcima
-* zastupanje i pravno savjetovanje u predstečajnim postupcima
-* zastupanje u postupcima pretraživanja baze podataka o pokrenutim stečajnim i predstečajnim postupcima
+* Rechtsberatung bezüglich der Eröffnung des Insolvenzverfahrens
+* Anzeigeerstattung der Forderungen in die Insolvenzmasse
+* Vertretung in Insolvenzverfahren
+* Vertretung und Rechtsberatung in Vorinsolvenzverfahren
+* Vertretung in Verfahren der Recherche in Datenbanken über eingeleitete Insolvenz- und Vorinsolvenzverfahren

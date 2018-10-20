@@ -1,9 +1,9 @@
 ---
 title: 'Ksenija Čerin'
-description: 'Odvjetnica, Senior partner'
+description: 'Rechtsanwältin - Senior Partner'
 visible: true
 ---
 
-Ksenija Čerin, odvjetnica - senior partner, diplomirala na Pravnom fakultetu Sveučilišta u Zagrebu 1993. godine. Od 1996. godine upisana u imenik odvjetnika, a od 1998. godine vodila svoj samostalni ured do osnivanja Odvjetničkog društva Čerin, Mar i partneri d.o.o. Aktivno govori i piše engleski jezik, pasivno talijanski.
-
-Ugovorno trgovačko pravo; Pravo trgovačkih društava; Radno pravo; Pravo tržišnog natjecanja; Stečajno pravo i predstečajni postupci; Bankarsko i financijsko pravo; Naplata potraživanja; Pravno savjetovanje; Odnosi s regulatorima; Porezno pravo; Pretvorba i privatizacija; Upravni postupci; Rješavanje sporova.
+Ksenija Čerin, Rechtsanwältin - Senior Partner, hat ihr Studium an der Fakultät für Rechtswissenschaften an der Universität in Zagreb im Jahr 1993 abgeschlossen. Seit 1996 ist sie im Rechtsanwaltsregister eingetragen und seit 1998 leitete sie ihre selbstständige Kanzlei bis zur Gründung der Rechtsanwaltsgesellschaft Čerin, Mar i partneri d.o.o. (GmbH). Sie bedient sich aktiv der englischen Sprache in Wort und Schrift sowie passiv der italienischen Sprache.
+ 
+Vertragshandelsrecht: Handelsgesellschaftsrecht; Arbeitsrecht; Wettbewerbsrecht; Insolvenzrecht und Vorinsolvenzverfahren; Banken- und Finanzrecht; Forderungseinzug; Rechtsberatung; Verhältnisse zu Regulationsorganen; Steuerrecht; Umwandlung und Privatisierung; Verwaltungsverfahren; Streitbeilegung.
