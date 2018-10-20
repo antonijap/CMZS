@@ -19,8 +19,10 @@ $theme-colors: (
 // 03 - Pravne usluge
 // 01 - Blog
 
-
 // Use breakpoints inside classes
+#logo {
+    transition: 200ms ease-in;
+}
 .demo {
     font-size: 12px;
     @include media-breakpoint-up(md) {

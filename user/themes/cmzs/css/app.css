@@ -6954,6 +6954,9 @@ a.text-dark:hover, a.text-dark:focus {
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: #869791; }
 
+#logo {
+  transition: 200ms ease-in; }
+
 .demo {
   font-size: 12px; }
 

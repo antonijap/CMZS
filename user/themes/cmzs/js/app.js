@@ -26,4 +26,16 @@ $(document).ready(function () {
         position: cmzs,
         map: map
     });
+
+    window.onscroll = function () {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            $("#logo").css('height','40px');            
+        } else {
+            $("#logo").css('height','90px');
+        }
+    }
 });

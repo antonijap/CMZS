@@ -1,8 +1,9 @@
 {% set theme_config = attribute(config.themes, config.system.pages.theme) %}
 <!DOCTYPE html>
 <html lang="{{ grav.language.getActive ?: theme_config.default_lang }}">
+
 <head>
-{% block head %}
+    {% block head %}
     <meta charset="utf-8" />
     <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
 
@@ -14,67 +15,64 @@
     <link rel="canonical" href="{{ page.url(true, true) }}" />
 
     {% block stylesheets %}
-        {% do assets.addCss('https://use.fontawesome.com/releases/v5.0.10/css/all.css', 99) %}
-        {% do assets.addCss('https://fonts.googleapis.com/css?family=Roboto:300,400&amp;subset=latin-ext', 98) %}
-        {% do assets.addCss('theme://css/app.css', 97) %}
+    {% do assets.addCss('https://use.fontawesome.com/releases/v5.0.10/css/all.css', 99) %}
+    {% do assets.addCss('https://fonts.googleapis.com/css?family=Roboto:300,400&amp;subset=latin-ext', 98) %}
+    {% do assets.addCss('theme://css/app.css', 97) %}
     {% endblock %}
     {{ assets.css() }}
     <script>
 
     </script>
     {% block javascripts %}
-        {% do assets.addJs('theme://node_modules/jquery/dist/jquery.min.js') %}
-        {% do assets.addJs('theme://node_modules/bootstrap/dist/js/bootstrap.min.js') %}
-        {% do assets.addJs('theme://node_modules/owl.carousel/dist/owl.carousel.min.js') %}
-        {% do assets.addJs ('theme://js/app.js') %}
-        {% do assets.addJs ('https://maps.googleapis.com/maps/api/js?key=AIzaSyBF0A7u8NfDWM-LaiAhhAQCq8Znr7V7o94') %}
+    {% do assets.addJs('theme://node_modules/jquery/dist/jquery.min.js') %}
+    {% do assets.addJs('theme://node_modules/bootstrap/dist/js/bootstrap.min.js') %}
+    {% do assets.addJs('theme://node_modules/owl.carousel/dist/owl.carousel.min.js') %}
+    {% do assets.addJs ('theme://js/app.js') %}
+    {% do assets.addJs ('https://maps.googleapis.com/maps/api/js?key=AIzaSyBF0A7u8NfDWM-LaiAhhAQCq8Znr7V7o94') %}
     {% endblock %}
     {{ assets.js() }}
 
-{% endblock head %}
+    {% endblock head %}
 </head>
+
 <body>
 
-{% block header %}
+    {% block header %}
     <div class="container-fluid languages">
         {% include 'partials/langswitcher.html.twig' %}
     </div>
-    <div class="container header">
-        <div class="mr-auto d-flex justify-content-sm-center justify-content-xl-between  align-items-center">
-            <div class="col-auto">
-                <a href="{{ home_url }}">
-                    <img class="img-fluid" src="{{ url("theme://images/logo.svg") }}" alt="CMZS">
-                </a>
-            </div>
-            <div class="col-auto">
-                <nav class="navbar navbar-expand-lg">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <ul class="navbar-nav">
-                            {% for page in pages.children %} {% set active = (page.active or page.activeChild) ? 'active' : '' %}
-                            <a class="nav-item nav-link {{ active }}" href="{{ page.url }}">{{ page.title }}</a>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="{{ home_url }}">
+            <img class="img-fluid" id="logo" src="{{ url("theme://images/logo.svg") }}" alt="ODCMZ">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                {% for page in pages.children %} {% set active = (page.active or page.activeChild) ?
+                'active' : '' %}
+                <a class="nav-item nav-link {{ active }}" href="{{ page.url }}">{{ page.title }}</a>
+                {% endfor %}
+            </ul>
         </div>
-    </div>
-{% endblock %}
+    </nav>
 
-{% block body %}
+    {% endblock %}
+
+    {% block body %}
     {% block content %}
     {% endblock %}
-{% endblock %}
+    {% endblock %}
 
-{% include 'partials/footer.html.twig' %}
+    {% include 'partials/footer.html.twig' %}
 
-{% block bottom %}
+    {% block bottom %}
     {{ assets.js('bottom') }}
-{% endblock %}
+    {% endblock %}
 
 </body>
+
 </html>
