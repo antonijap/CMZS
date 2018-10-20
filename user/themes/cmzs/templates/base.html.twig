@@ -19,10 +19,9 @@
     {% do assets.addCss('https://fonts.googleapis.com/css?family=Roboto:300,400&amp;subset=latin-ext', 98) %}
     {% do assets.addCss('theme://css/app.css', 97) %}
     {% endblock %}
-    {{ assets.css() }}
-    <script>
 
-    </script>
+    {{ assets.css() }}
+
     {% block javascripts %}
     {% do assets.addJs('theme://node_modules/jquery/dist/jquery.min.js') %}
     {% do assets.addJs('theme://node_modules/bootstrap/dist/js/bootstrap.min.js') %}
@@ -41,37 +40,37 @@
     <div class="container-fluid languages">
         {% include 'partials/langswitcher.html.twig' %}
     </div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <a class="navbar-brand" href="{{ home_url }}">
-            <img class="img-fluid" id="logo" src="{{ url("theme://images/logo.svg") }}" alt="ODCMZ">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                {% for page in pages.children %} {% set active = (page.active or page.activeChild) ?
-                'active' : '' %}
-                <a class="nav-item nav-link {{ active }}" href="{{ page.url }}">{{ page.title }}</a>
-                {% endfor %}
-            </ul>
+    <div class="container-fluid sticky-top be-first">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="{{ home_url }}">
+                    <img class="img-fluid" id="logo" src="{{ url("theme://images/logo.svg") }}" alt="ODCMZ">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        {% for page in pages.children %} {% set active = (page.active or page.activeChild) ?
+                        'active' : '' %}
+                        <a class="nav-item nav-link {{ active }}" href="{{ page.url }}">{{ page.title }}</a>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </nav>
         </div>
-    </nav>
-
+    </div>
     {% endblock %}
 
     {% block body %}
-    {% block content %}
-    {% endblock %}
+        {% block content %}
+        {% endblock %}
     {% endblock %}
 
     {% include 'partials/footer.html.twig' %}
-
-    {% block bottom %}
-    {{ assets.js('bottom') }}
-    {% endblock %}
 
 </body>
 

@@ -21,11 +21,21 @@ $theme-colors: (
 
 // Use breakpoints inside classes
 #logo {
-    transition: 100ms ease-in;
+    transition: height 200ms linear;
+    height:90px;
 }
 
-.navbar {
+.shadow-scroll {
+    box-shadow: #cccccc 0 0 11px;
+}
+
+#logo.small {
+    height: 40px;
+}
+
+.be-first {
     z-index: 99999;
+    background: white;
 }
 
 .demo {
@@ -210,6 +220,8 @@ footer {
 }
 
 .team {
+    margin-top: 3em;
+
     .description {
         font-size: 18px;
         text-align: center;
@@ -278,6 +290,8 @@ footer {
 }
 
 .services {
+    margin-top: 3em;
+
     p {
         margin-bottom: 5em;
     }

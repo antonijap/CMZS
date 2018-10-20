@@ -1,5 +1,15 @@
 $(document).ready(function () {
 
+    $(window).scroll(function(){
+        if($(document).scrollTop() > 0) {
+            $('#logo').addClass('small');
+            $('.be-first').addClass('shadow-scroll');
+        } else {
+            $('#logo').removeClass('small');
+            $('.be-first').removeClass('shadow-scroll');
+        }
+    });
+
     $('.simple-logo').hide().delay(500).fadeIn(1000);
 
     $('.owl-carousel').owlCarousel({
@@ -26,16 +36,4 @@ $(document).ready(function () {
         position: cmzs,
         map: map
     });
-
-    window.onscroll = function () {
-        scrollFunction()
-    };
-
-    function scrollFunction() {
-        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-            $("#logo").css('height','40px');            
-        } else {
-            $("#logo").css('height','90px');
-        }
-    }
 });

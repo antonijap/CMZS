@@ -21,7 +21,7 @@ gulp.task('sass', function() {
 // Static Server + watching scss/html files
 gulp.task('serve', ['sass'], function() {
     browserSync.init({
-        proxy: "cmzs.dev"
+        proxy: "https://cmzs.test"
     });
 
     gulp.watch("user/themes/cmzs/scss/**/*.scss", ['sass']);

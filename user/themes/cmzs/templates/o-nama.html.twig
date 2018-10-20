@@ -1,4 +1,5 @@
 {% extends 'base.html.twig' %} 
+
 {% block content %}
 <div class="container-fluid slider">   
     <img src="{{ url("theme://images/simple-logo.svg") }}" alt="" class="simple-logo">
@@ -31,7 +32,7 @@
     {% for page in page.collection %}
        <h2>{{ page.title }}</h2>
        {{ page.content }}
-       <form class="contact" action="https://formspree.io/antonijapek@gmail.com" method="POST">
+       <form class="contact" action="https://formspree.io/info@odcmp.hr" method="POST">
        <div class="form-group">
            <label for="name">{{ page.header.name }}</label>
            <input name="ime" type="name" class="form-control" id="name" aria-describedby="name">
@@ -51,10 +52,5 @@
     {% endfor %}
 
 </div>
-
-<div class="container-fluid no-padding">
-    {% include 'partials/map.html.twig' %}
-</div>
-
 
 {% endblock %}
