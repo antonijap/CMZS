@@ -22,11 +22,14 @@ $theme-colors: (
 // Use breakpoints inside classes
 #logo {
     transition: height 200ms linear;
-    height:90px;
+    height: 60px;
+    @include media-breakpoint-up(md) {
+        height:90px;
+    }
 }
 
 .shadow-scroll {
-    box-shadow: #cccccc 0 0 11px;
+    box-shadow: #0000001f 0 0 11px;
 }
 
 #logo.small {
@@ -36,6 +39,10 @@ $theme-colors: (
 .be-first {
     z-index: 99999;
     background: white;
+    @include media-breakpoint-up(md) {
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
 }
 
 .demo {

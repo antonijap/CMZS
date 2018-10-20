@@ -6956,10 +6956,14 @@ a.text-dark:hover, a.text-dark:focus {
 
 #logo {
   transition: height 200ms linear;
-  height: 90px; }
+  height: 60px; }
+
+@media (min-width: 768px) {
+  #logo {
+    height: 90px; } }
 
 .shadow-scroll {
-  box-shadow: #cccccc 0 0 11px; }
+  box-shadow: #0000001f 0 0 11px; }
 
 #logo.small {
   height: 40px; }
@@ -6967,6 +6971,11 @@ a.text-dark:hover, a.text-dark:focus {
 .be-first {
   z-index: 99999;
   background: white; }
+
+@media (min-width: 768px) {
+  .be-first {
+    margin-top: 3em;
+    margin-bottom: 3em; } }
 
 .demo {
   font-size: 12px; }

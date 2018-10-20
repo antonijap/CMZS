@@ -9,7 +9,7 @@
     </div>
     <div class="row images">
         {% for page in page.collection %}
-            <div class="col-6 col-md-4 member">
+            <div class="col-12 col-md-6 member">
                 {% if page.media.images|first %}
                     {% set first_image = page.media.images|first %}
                     <a href="{{ page.url }}">

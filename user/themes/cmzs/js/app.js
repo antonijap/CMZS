@@ -1,12 +1,26 @@
 $(document).ready(function () {
 
     $(window).scroll(function(){
-        if($(document).scrollTop() > 0) {
-            $('#logo').addClass('small');
-            $('.be-first').addClass('shadow-scroll');
+        if (parseInt($(window).width()) < 426) {
+            console.log('Manje');
+            
+            if($(document).scrollTop() > 0) {
+                $('#logo').addClass('small');
+                $('.be-first').addClass('shadow-scroll');
+            } else {
+                $('#logo').removeClass('small');
+                $('.be-first').removeClass('shadow-scroll');
+            }
         } else {
-            $('#logo').removeClass('small');
-            $('.be-first').removeClass('shadow-scroll');
+            console.log('Veće');
+            
+            if($(document).scrollTop() > 90) {
+                $('#logo').addClass('small');
+                $('.be-first').addClass('shadow-scroll');
+            } else {
+                $('#logo').removeClass('small');
+                $('.be-first').removeClass('shadow-scroll');
+            }
         }
     });
 

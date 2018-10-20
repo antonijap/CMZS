@@ -21,9 +21,10 @@ gulp.task('sass', function() {
 // Static Server + watching scss/html files
 gulp.task('serve', ['sass'], function() {
     browserSync.init({
-        proxy: "https://cmzs.test"
-    });
-
+        proxy: 'https://cmzs.test/',
+        host: 'cmzs.test',
+        open: 'external'
+  });
     gulp.watch("user/themes/cmzs/scss/**/*.scss", ['sass']);
     gulp.watch("user/themes/cmzs/templates/*.html.twig").on('change', browserSync.reload);
 });
