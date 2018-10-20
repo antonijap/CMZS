@@ -6955,7 +6955,10 @@ a.text-dark:hover, a.text-dark:focus {
   background: #869791; }
 
 #logo {
-  transition: 200ms ease-in; }
+  transition: 100ms ease-in; }
+
+.navbar {
+  z-index: 99999; }
 
 .demo {
   font-size: 12px; }
@@ -7046,7 +7049,8 @@ h4 {
 .slider {
   color: white;
   margin-bottom: 3em;
-  padding: 0; }
+  padding: 0;
+  position: relative; }
 
 .slider .overlay {
   position: relative; }
@@ -7068,7 +7072,7 @@ h4 {
   position: absolute;
   z-index: 9999;
   transform-origin: center;
-  top: 37%;
+  top: 45%;
   /* position the top  edge of the element at the middle of the parent */
   left: 50%;
   /* position the left edge of the element at the middle of the parent */
@@ -7076,9 +7080,12 @@ h4 {
   display: none;
   width: 70%; }
 
+@media (min-width: 768px) {
+  .slider .simple-logo {
+    width: 50%; } }
+
 @media (min-width: 1200px) {
   .slider .simple-logo {
-    top: 45%;
     width: 30%; } }
 
 .contact .send-button {
